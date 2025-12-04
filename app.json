@@ -1,8 +1,4 @@
-name = "orange-carrier-bot"
-compatibility_date = "2025-12-04"
-main = "worker.js"
 
-[vars]
 BOT_TOKEN = "8374784823:AAGQ3wGU4AMC1VCW7RGpfXm_hZ3_dvjsVpI"
 CHAT_ID = "-1002744812614"
 ACCOUNTS = '[{"email":"mostafizur2940@gmail.com","password":"Az708090@#"}]'
