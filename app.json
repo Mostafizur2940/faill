@@ -6,7 +6,7 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Your Telegram Bot Token",
-      "value": "8374784823:AAFr7Y6m5p-df7cUIJqPaRjfMYR-HvoY2K8"
+      "value": "8374784823:AAGQ3wGU4AMC1VCW7RGpfXm_hZ3_dvjsVpI"
     },
     "CHAT_ID": {
       "description": "Telegram Chat/Group ID (e.g. -100123456789)",
