@@ -1,0 +1,31 @@
+{
+  "name": "orange-carrier-bot",
+  "description": "Orange Carrier multi-account CDR fetcher + Telegram bot",
+  
+  "keywords": ["python", "telegram", "orange-carrier", "cdr"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token",
+      "value": "8374784823:AAFr7Y6m5p-df7cUIJqPaRjfMYR-HvoY2K8"
+    },
+    "CHAT_ID": {
+      "description": "Telegram Chat/Group ID (e.g. -100123456789)",
+      "value": "-1002744812614"
+    },
+    "ACCOUNTS": {
+      "description": "List of Orange Carrier accounts in JSON format",
+      "value": "[{\"email\":\"mostafizur2940@gmail.com\",\"password\":\"Az708090@#\"},{\"email\":\"raselkhany94@gmail.com\",\"password\":\"Az708090@#\"}]"
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "Basic"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
